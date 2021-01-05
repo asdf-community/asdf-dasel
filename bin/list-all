@@ -8,5 +8,4 @@ fi
 
 "${curl_cmd[@]}" --fail --silent https://api.github.com/repos/TomWright/dasel/releases?per_page=100 |
   jq '.[] | select(.prerelease == false) | .tag_name | sub("v"; "")' -r |
-  tac |
-  xargs echo
+  sort --version-sort
