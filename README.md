@@ -2,7 +2,7 @@
   <br>
   <a href="http://github.com/asdf-community/asdf-dasel"><img src="./assets/logo.png" alt="dasel" width="200px" /></a>
   <br>
-  Kubernetes
+  asdf Dasel plugin
   <br>
 </h1>
 
@@ -25,3 +25,5 @@ asdf plugin add https://github.com/asdf-community/asdf-dasel.git
 
 asdf list all dasel
 ```
+
+**NOTE: Versions before 0.12.1 will not be installable through this plugin due to a change in the release process to support `uname` platform detection.
