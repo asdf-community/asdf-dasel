@@ -21,7 +21,7 @@ This is the asdf-plugin for [dasel](https://github.com/tomwright/dasel).
 ## ⚡️ Getting Started
 
 ```bash
-asdf plugin add https://github.com/asdf-community/asdf-dasel.git
+asdf plugin add dasel https://github.com/asdf-community/asdf-dasel.git
 
 asdf list all dasel
 ```
