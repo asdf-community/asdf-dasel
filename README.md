@@ -24,6 +24,9 @@ This is the asdf-plugin for [dasel](https://github.com/tomwright/dasel).
 asdf plugin add dasel https://github.com/asdf-community/asdf-dasel.git
 
 asdf list all dasel
+
+# we use `main` for our trunk git branch, asdf defaults to "master" though, so you need to manually specify main
+asdf plugin update dasel main
 ```
 
 **NOTE: Versions before 0.12.1 will not be installable through this plugin due to a change in the release process to support `uname` platform detection.
