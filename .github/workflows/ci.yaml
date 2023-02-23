@@ -25,7 +25,7 @@ jobs:
         with:
           command: dasel --version
         env:
-          GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_API_TOKEN: ${{ github.token }}
 
   lint:
     runs-on: ubuntu-latest
